@@ -110,31 +110,30 @@ input[type="range"] {
 
 /* Track: webkit browsers */
 input[type="range"]::-webkit-slider-runnable-track {
-  height: 15px;
+  height: 20px;
   background: #ccc;
   border-radius: 16px;
 }
 
 /* Track: Mozilla Firefox */
 input[type="range"]::-moz-range-track {
-  height: 15px;
+  height: 20px;
   background: #ccc;
   border-radius: 16px;
 }
 .form-range{
-  height: auto ! important;
+  height: auto !important;
 }
 
 /* Thumb: webkit */
 input[type="range"]::-webkit-slider-thumb {
   -webkit-appearance: none;
   appearance: none; 
-  height: 15px;
-  width: 15px;
+  height: 27px;
+  width: 25px;
   background-color: #fff;
   border-radius: 50%;
   border: 2px solid #f50;
-  /*  slider progress trick  */
   box-shadow: -407px 0 0 400px #f50;
 }
 

@@ -3,7 +3,7 @@
 Un proyecto interactivo desarrollado con **Svelte** que permite a los usuarios simular cotizaciones de préstamos de manera dinámica, ajustando variables como monto, plazo y visualizando los pagos mensuales y el total a pagar.
 
 #### Resultado final
-![](https://raw.githubusercontent.com/urian121/imagenes-proyectos-github/refs/heads/master/eliminar-multiples-registros-dinamicamente-en-una-tabla-con-svelte.gif)
+![](https://raw.githubusercontent.com/urian121/imagenes-proyectos-github/refs/heads/master/cotizador-dinamico-con-svelte.gif)
 
 
 
