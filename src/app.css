@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  background-color: #ffdaa8 ! important;
+  color: #444;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 4.2em;
+  line-height: 1.1;
+}
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+.btn{
+  background-color: #f50 !important;
+  border: none !important;
+  border-color: #444;
+}
+.valor-prestamo{
+  font-size: 3rem !important;
+  font-weight: 900;
+}
+.circulo {
+	width: 1px;
+	height: 1px;
+	border-radius: 50%;
+	background: red;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+  margin:0px auto;
+  padding:1%
+}
+.circulo > button {
+	font-size: 10px;
+	font-weight: bold;
+}
+.bi-plus,.bi-dash{
+  font-size: 1.5rem;
+  color: #fff;
+}
