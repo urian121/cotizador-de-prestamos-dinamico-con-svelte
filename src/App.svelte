@@ -17,6 +17,9 @@ import "bootstrap-icons/font/bootstrap-icons.css";
   const MAX = 20000;
   const STEP = 100;
 
+ /*
+* $: Significa que cada vez que cantidad o meses cambien, Svelte ejecutará automáticamente la función calcularTotalPagar y actualizará el valor de total
+*/
   $: {
     total = calcularTotalPagar(cantidad, meses);
   }
