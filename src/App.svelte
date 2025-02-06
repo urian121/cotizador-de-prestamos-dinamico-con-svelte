@@ -36,11 +36,6 @@ import "bootstrap-icons/font/bootstrap-icons.css";
       pago = total / meses;
   }
 
-/*
- * Esta declaración reactiva no tiene efecto real,
- * ya que `cantidad` simplemente se reasigna a sí misma.
- * No es necesario en Svelte a menos que se quiera forzar una reactividad manual.
- */
   $: {
       cantidad = cantidad;
   }
