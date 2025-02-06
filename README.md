@@ -65,8 +65,11 @@ Sigue estos pasos para configurar y ejecutar el proyecto en tu entorno local:
 ✨ **Comparte este proyecto** con otros desarrolladores para que puedan beneficiarse 📢.
 ☕ **Invítame un café o una cerveza 🍺**:
    - [Paypal](https://www.paypal.me/iamdeveloper86) (`iamdeveloper86@gmail.com`).
+
 👍 **Suscríbete a mi canal de [YouTube](https://www.youtube.com/WebDeveloperUrianViera?sub_confirmation=1)** para más contenido increíble y tutoriales.
+
 ⭐ **Déjanos una estrella en GitHub**:
+
    - Dicen que trae buena suerte 🍀.
 
 Gracias por tu apoyo 🤓.
