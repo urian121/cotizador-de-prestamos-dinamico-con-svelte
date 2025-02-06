@@ -17,19 +17,32 @@ import "bootstrap-icons/font/bootstrap-icons.css";
   const MAX = 20000;
   const STEP = 100;
 
- /*
-* $: Significa que cada vez que cantidad o meses cambien, Svelte ejecutará automáticamente la función calcularTotalPagar y actualizará el valor de total
-*/
+/*
+ * $: indica una declaración reactiva en Svelte.
+ * Esto significa que cada vez que `cantidad` o `meses` cambien,
+ * Svelte ejecutará automáticamente la función `calcularTotalPagar`
+ * y actualizará el valor de `total`.
+ */
   $: {
     total = calcularTotalPagar(cantidad, meses);
   }
 
+/*
+ * $: indica una declaración reactiva en Svelte.
+ * Esto significa que cada vez que `total` o `meses` cambien,
+ * Svelte recalculará automáticamente el valor de `pago`.
+ */
   $: {
-    pago = total / meses;
+      pago = total / meses;
   }
 
+/*
+ * Esta declaración reactiva no tiene efecto real,
+ * ya que `cantidad` simplemente se reasigna a sí misma.
+ * No es necesario en Svelte a menos que se quiera forzar una reactividad manual.
+ */
   $: {
-    cantidad = cantidad;
+      cantidad = cantidad;
   }
 
   function handleChange(e) {
